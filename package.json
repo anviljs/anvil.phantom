@@ -1,0 +1,18 @@
+{
+  "author": "Alex Robson <alex@sharplearningcurve.com> (http://sharplearningcurve.com)",
+  "name": "anvil.phantom",
+  "description": "PhantomJS runner for anvil.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arobson/anvil.phantom.git"
+  },
+  "engines": {
+    "node": "~0.8.3"
+  },
+  "main": "./lib/phantom.js",
+  "dependencies": {},
+  "optionalDependencies": {},
+  "requiredPlugins": [ "anvil.http" ],
+  "keywords": [ "anvil", "phantomjs" ]
+}
